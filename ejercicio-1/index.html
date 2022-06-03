@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio de Introducción a HTML en OpenBootcamp</title>
+    <title>Ejercicio 02 - Formularios en HTML</title>
 </head>
 <body>
-    <h1>Ejercicio de Introducción a HTML en OpenBootcamp</h1>
-    <p>Este es mi primer comentario de dos lineas.</p>
-    <p>Aprendiendo a documentar mi codigo con OpenBootCamp.</p>
-    <div>
-        <h2>Lista de videos favoritos de Youtube</h2>
-        <ul>
-            <li>
-                <a href="https://www.youtube.com/watch?v=5qap5aO4i9A">lofi hip hop radio - beats to relax/study</a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/watch?v=TdZXVVoDUWs&list=RDTdZXVVoDUWs&start_radio=1">Sech - 42 (Acústico)</a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/watch?v=K-nyngBPf4o">Te Conozco Bacalao Héctor Lavoe</a>
-            </li>
-        </ul>
-    </div>
-    
+    <h1>Ejercicio 02 - Formularios en HTML</h1>
+    <form action="/">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text">
+        </div>
+        <div>
+            <label for="edad">Edad</label>
+            <input id="edad" name="edad" type="number">
+        </div>
+        <div>
+            <label for="frasefav">Frase favorita</label>
+            <textarea id="frasefav" name="frasefav"></textarea>
+        </div>
+        <div>
+            <button type="submit">Envio</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
 </body>
 </html>

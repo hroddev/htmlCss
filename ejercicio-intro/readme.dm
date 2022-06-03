@@ -1,7 +1,6 @@
-## Ejercicio 1
 # HTML & CSS
 
-## Ejercicio 1
+## Ejercicio Intro
 
 Crea un nuevo documento HTML e implementa lo siguiente:
 
