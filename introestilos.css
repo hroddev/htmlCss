@@ -26,4 +26,25 @@
 
 .fondo-interno {
     background-image: url(/background-1.jpg);
+    background-position: left bottom;
+}
+
+/* Tamaños */
+
+.ancho {
+    background-color: #BCE784;
+    width: 100px;
+}
+
+.alto {
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    padding: 10px 20px;
+    margin: 10px 20px;
 }
