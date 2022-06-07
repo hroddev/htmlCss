@@ -1,0 +1,34 @@
+/* flex box */
+
+/* contiene todo lo que tiene la etiqueta contenedora ordenadamente */
+.flex {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around; /* posiciona elementos horizontalmente*/
+    align-items: center; /* posiciona elementos verticalmente*/
+    /* flex-wrap: wrap; */
+}
+
+.contenido-1 {
+    background-color: black;
+    height: 200px;
+    width: 100px;
+    color: white;
+    border: 1px solid blue;
+}
+
+.contenido-2 {
+    background-color: red;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-3 {
+    background-color: green;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
