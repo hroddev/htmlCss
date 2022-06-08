@@ -11,3 +11,8 @@ Crea un nuevo documento HTML con el título "Disposición de elementos en CSS"
         - Las imágenes deben tener 300 píxeles de ancho
 
         - Deben reagruparse (wrap) cuando el ancho del viewport cambia
+
+___
+
+![imagen 1](https://github.com/hroddev/htmlCss/blob/master/ejercicio-disposicion/img/ss-1.png)
+![imagen 2](https://github.com/hroddev/htmlCss/blob/master/ejercicio-disposicion/img/ss-2.png)
