@@ -13,3 +13,7 @@
     - El fondo de los inputs cuando se hace hover será del color #454045
 
     - Los textos tendrán un color blanco
+
+___
+
+![sreenshot](https://github.com/hroddev/htmlCss/blob/master/ejercicio-dark-form/dark-form.png)
