@@ -1,0 +1,20 @@
+.contenedor {
+    background-color: coral;
+    padding: .5rem;
+    display: flex;
+    gap: .5rem;
+    min-height: 5rem;
+
+    /* eje principal X*/
+    justify-content: space-around;
+
+    /* eje secundario Y*/
+    align-items: center;
+
+    /* flex-direction: column; */
+}
+
+.item {
+    background-color: cornflowerblue;
+    padding: .25rem;
+}
