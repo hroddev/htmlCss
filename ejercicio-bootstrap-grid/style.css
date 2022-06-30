@@ -1,0 +1,24 @@
+
+.row {
+    margin: .25rem;
+    font-size: large;
+    color: whitesmoke;
+    padding: .75rem;
+}
+
+.col-sm {
+    background-color: #6bede8;
+    padding: 2rem;
+}
+.col-md {
+    background-color: #44C1A1;
+    padding: 2rem;
+}
+.col-lg {
+    background-color: #BBA365;
+    padding: 2rem;
+}
+.col-xl {
+    background-color: #846D56;
+    padding: 2rem;
+}
