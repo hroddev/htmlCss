@@ -17,3 +17,6 @@ Utiliza las media queries para que cuando el ancho del viewport sea menor de 640
     - La disposición de los elementos de la barra lateral se vuelva horizontal
 
     (Tip: Trabaja con la propiedad flex-direction)
+    
+![imagen 1](https://github.com/hroddev/htmlCss/blob/master/ejercicio-responsive/large%20screen.png)
+![imagen 2](https://github.com/hroddev/htmlCss/blob/master/ejercicio-responsive/small%20screen.png)
