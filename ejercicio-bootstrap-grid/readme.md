@@ -17,3 +17,6 @@ Utilizando únicamente el atributo class de cada uno de los div haz lo siguiente
     - Para viewports LG - cada fila contendrá 4 elementos
 
     - Para viewports XL - cada fila contendrá 6 elementos
+    
+![image2](https://github.com/hroddev/htmlCss/blob/master/ejercicio-bootstrap-grid/image2.png)
+![image1](https://github.com/hroddev/htmlCss/blob/master/ejercicio-bootstrap-grid/image1.png)
