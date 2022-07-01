@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Elementos de Interés en Bootstrap</title>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="mb-4 text-center">Elementos de Interés en Bootstrap</h1>
+
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Ejemplo de jumbotron</h1>
+            <p class="col-md-8 fs-4">Aliqua consequat reprehenderit cupidatat ea fugiat exercitation excepteur dolore eu. Ullamco esse non labore occaecat cupidatat irure nisi exercitation ad. Minim exercitation adipisicing incididunt commodo Lorem qui do do cillum officia do elit non.</p>
+            <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Llamada a la acción</button>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Titulo del Modal</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <p>Non id amet dolore non veniam nostrud in do sint. Nulla anim mollit adipisicing consequat anim aute mollit magna incididunt do ea eu. Amet ad pariatur culpa pariatur non dolore cillum ipsum eu ea do voluptate ex. Amet proident minim veniam velit.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- End Modal -->
+
+        <!-- Formulario -->
+        <form class="mt-5 container">
+            <h4 class="mb-3">Ejemplo de formulario</h4>
+            <div class="mb-3 w-50">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre">
+            </div>
+            <div class="mb-3 w-50">
+                <label for="phone-number" class="form-label">Número de Teléfono</label>
+                <input type="number" class="form-control" id="phone-number"placeholder="Ingrese su número de teléfono">
+            </div>
+            <div class="mb-3 w-50">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Ingrese su mensaje"></textarea>
+            </div>
+        </form>
+
+        <div class="perfil">
+
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
