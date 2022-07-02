@@ -19,3 +19,10 @@
     - Una breve descripción
 
     - Tu email en el footer
+    
+___
+## Capturas de pantalla
+
+![img1](https://github.com/hroddev/htmlCss/blob/master/ejercicio-elementos-bootstrap/img1.png)
+![img2](https://github.com/hroddev/htmlCss/blob/master/ejercicio-elementos-bootstrap/img2.png)
+![img3](https://github.com/hroddev/htmlCss/blob/master/ejercicio-elementos-bootstrap/img3.png)
