@@ -111,4 +111,26 @@
   max-width: 7rem;
 }
 
+.sec-home {
+  display: flex;
+  width: 100%;
+  max-width: 768px;
+  padding: 5rem;
+  align-items: center;
+  margin: auto;
+}
+.sec-home a .home-cta {
+  flex: 1;
+}
+.sec-home a .home-cta .cta-text {
+  color: #0075FF;
+}
+.sec-home a .home-cta .home-title {
+  width: 20rem;
+  font-size: 3rem;
+}
+.sec-home .home-img {
+  filter: drop-shadow(5px 5px 10px rgba(38, 38, 38, 0.3882352941));
+}
+
 /*# sourceMappingURL=style.css.map */
