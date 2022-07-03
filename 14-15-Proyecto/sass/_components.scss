@@ -1,0 +1,62 @@
+@mixin btn-base {
+    padding: .5rem 1.5rem;
+    border-radius: .25rem;
+}
+
+@mixin btn-sm-modify {
+    font-size:.75rem;
+    padding: .1rem 1rem;
+}
+
+$color-main: #0075FF;
+
+.btn-main {
+    @include btn-base();
+    background-color: $color-main;
+    color: white;
+    border: solid 1px $color-main;
+
+    &:hover {
+        background-color: white;
+        color: $color-main;
+    }
+
+    &-s {
+        @extend .btn-main;
+        @include btn-sm-modify();
+    }
+}
+
+.btn-sec {
+    @extend .btn-main;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+
+    &:hover {
+        color: #888;
+    }
+
+    &-s {
+        @extend .btn-sec;
+        @include btn-sm-modify();
+    }
+}
+
+.main-menu {
+    li {
+        font-size: .5rem;
+        list-style: none;
+        display: inline;
+    }
+}
+
+.icon-sm {
+    i {
+        font-size: .75rem;
+        padding: .1rem .25rem;
+        color: $color-main;
+        border-radius: 50%;
+        box-shadow: 0 0 10px #00000040;
+    }
+}
