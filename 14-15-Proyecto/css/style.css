@@ -250,6 +250,9 @@
     padding-bottom: 1.25rem;
     margin: 0.25rem;
   }
+  .sec-kpis {
+    gap: 1.5rem;
+  }
   .sec-onboarding {
     text-align: center;
   }
