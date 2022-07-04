@@ -98,9 +98,73 @@
 .sec-benefits {
     border-top: 1px solid #ddd;;
     @extend .sec-features, .intro;
+
+    .benefit-cards {
+        width: 100%;
+        padding: 0 2rem 2rem 2rem;
+    }
 }
 
-.benefit-cards {
+.sec-kpis {
     width: 100%;
-    padding: 0 2rem 2rem 2rem;
+    background-color: components.$color-main;
+    color: white;
+    padding: 3rem 0;
+
+    .kpi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .number {
+            font-size: 3.5rem;
+            font-size: 600;
+        }
+
+        .desc {
+            font-size: .9rem;
+            color: #ffffffaa;
+        }
+    }
+
+}
+
+.sec-onboarding {
+    @extend .sec-features, .intro;
+
+    .steps {
+        padding: 0 5rem 5rem 4rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .step-separator {
+            flex: 1;
+            border-top: 2px solid #dddd;
+            margin: 0 1rem;
+        }
+    }
+    
+}
+
+.sec-footer-cta {
+    background-color: components.$color-footer;
+    padding: 8rem;
+    background-image: url(../assets/img/earn.webp);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    
+    
+    .footer-cta {
+        width: 40%;
+
+        .title-cta {
+            font-size: 2rem;
+        }
+        .description-cta {
+            font-size: 1.1rem;
+        }
+    }
+    
 }
