@@ -148,7 +148,8 @@
 }
 .sec-features .intro p, .sec-features .sec-onboarding p, .sec-onboarding .intro p, .sec-onboarding .sec-onboarding p, .sec-features .sec-benefits p, .sec-onboarding .sec-benefits p, .sec-benefits .intro p, .sec-benefits .sec-onboarding p, .sec-benefits .sec-benefits p {
   font-size: 0.8rem;
-  color: #888;
+  font-weight: 500;
+  color: rgb(109, 107, 107);
 }
 .sec-features .features, .sec-onboarding .features, .sec-benefits .features {
   display: flex;
@@ -160,10 +161,10 @@
 }
 .sec-features .features .text .feature, .sec-onboarding .features .text .feature, .sec-benefits .features .text .feature {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 .sec-features .features .text .feature .description, .sec-onboarding .features .text .feature .description, .sec-benefits .features .text .feature .description {
+  text-align: left;
   margin-left: 1.15rem;
 }
 .sec-features .features .text .feature .description .description-title, .sec-onboarding .features .text .feature .description .description-title, .sec-benefits .features .text .feature .description .description-title {
@@ -232,6 +233,36 @@
 }
 .sec-footer-cta .footer-cta .description-cta {
   font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .sec-home {
+    padding: 10rem 2rem;
+  }
+  .sec-features .intro h3, .sec-benefits .intro h3, .sec-onboarding .intro h3, .sec-features .sec-benefits h3, .sec-benefits .sec-benefits h3, .sec-onboarding .sec-benefits h3, .sec-features .sec-onboarding h3, .sec-benefits .sec-onboarding h3, .sec-onboarding .sec-onboarding h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .sec-features .intro p, .sec-benefits .intro p, .sec-onboarding .intro p, .sec-features .sec-benefits p, .sec-benefits .sec-benefits p, .sec-onboarding .sec-benefits p, .sec-features .sec-onboarding p, .sec-benefits .sec-onboarding p, .sec-onboarding .sec-onboarding p {
+    font-size: 1rem;
+  }
+  .benefit-cards .benefit .cta {
+    padding-bottom: 1.25rem;
+    margin: 0.25rem;
+  }
+  .sec-onboarding {
+    text-align: center;
+  }
+  .sec-onboarding .steps {
+    flex-direction: column;
+  }
+  .sec-footer-cta {
+    background-image: none;
+    padding: 5rem 3rem;
+  }
+  .sec-footer-cta .footer-cta {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

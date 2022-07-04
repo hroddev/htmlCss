@@ -60,7 +60,8 @@
 
     p {
       font-size: 0.8rem;
-      color: #888;
+      font-weight: 500;
+      color: rgb(109, 107, 107);
     }
   }
 
@@ -70,12 +71,11 @@
     align-items: center;
     .text {
       padding: 2rem 0;
-    //   max-width: 40%;
       .feature {
-       display: flex;
-        flex-direction: row; 
+        display: flex;
         align-items: center;
         .description {
+          text-align: left;
           margin-left: 1.15rem;
           .description-title {
             font-size: 1.25rem;
@@ -96,75 +96,116 @@
 }
 
 .sec-benefits {
-    border-top: 1px solid #ddd;;
-    @extend .sec-features, .intro;
+  border-top: 1px solid #ddd;
+  @extend .sec-features, .intro;
 
-    .benefit-cards {
-        width: 100%;
-        padding: 0 2rem 2rem 2rem;
-    }
+  .benefit-cards {
+    width: 100%;
+    padding: 0 2rem 2rem 2rem;
+  }
 }
 
 .sec-kpis {
-    width: 100%;
-    background-color: components.$color-main;
-    color: white;
-    padding: 3rem 0;
+  width: 100%;
+  background-color: components.$color-main;
+  color: white;
+  padding: 3rem 0;
 
-    .kpi {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-        .number {
-            font-size: 3.5rem;
-            font-size: 600;
-        }
+  .kpi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-        .desc {
-            font-size: .9rem;
-            color: #ffffffaa;
-        }
+    .number {
+      font-size: 3.5rem;
+      font-size: 600;
     }
 
+    .desc {
+      font-size: 0.9rem;
+      color: #ffffffaa;
+    }
+  }
 }
 
 .sec-onboarding {
-    @extend .sec-features, .intro;
+  @extend .sec-features, .intro;
 
-    .steps {
-        padding: 0 5rem 5rem 4rem;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+  .steps {
+    padding: 0 5rem 5rem 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
-        .step-separator {
-            flex: 1;
-            border-top: 2px solid #dddd;
-            margin: 0 1rem;
-        }
+    .step-separator {
+      flex: 1;
+      border-top: 2px solid #dddd;
+      margin: 0 1rem;
     }
-    
+  }
 }
 
 .sec-footer-cta {
-    background-color: components.$color-footer;
-    padding: 8rem;
-    background-image: url(../assets/img/earn.webp);
-    background-repeat: no-repeat;
-    background-position: 100%;
-    
-    
-    .footer-cta {
-        width: 40%;
+  background-color: components.$color-footer;
+  padding: 8rem;
+  background-image: url(../assets/img/earn.webp);
+  background-repeat: no-repeat;
+  background-position: 100%;
 
-        .title-cta {
-            font-size: 2rem;
+  .footer-cta {
+    width: 40%;
+
+    .title-cta {
+      font-size: 2rem;
+    }
+    .description-cta {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+    .sec-home {
+        padding: 10rem 2rem;
+    }
+
+    .sec-features {
+        .intro {
+        h3 {
+            font-size: 2.5rem;
+            font-weight: 600;
         }
-        .description-cta {
-            font-size: 1.1rem;
+        p {
+            font-size: 1rem;
+        }
         }
     }
+
+    .benefit-cards {
+        .benefit {
+            .cta {
+                padding-bottom: 1.25rem;
+                margin: .25rem;
+            }
+        }
+    }
+
+    .sec-onboarding {
+        text-align: center;
+        .steps {
+            flex-direction: column;
+        }
+    }
+
+    .sec-footer-cta {
+        background-image: none;
+        padding: 5rem 3rem;
+
+        .footer-cta {
+            width: 100%;
+        }
+    }
+
     
 }
