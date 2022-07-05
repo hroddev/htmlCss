@@ -1,6 +1,6 @@
 # Curso de HTML y CSS - [OpenBootCamp](https://campus.open-bootcamp.com/cursos)
 
-### Link del proyecto terminado [netlify](https://62c434da57cf600324d81d96--resonant-sopapillas-0bf0ad.netlify.app/)
+### Link del proyecto terminado [netlify](https://62c434da57cf600324d81d96--resonant-sopapillas-0bf0ad.netlify.app/){:target="_blank" rel="noopener"}
 ___
 
 Hola, mi nombre es Héctor, a lo largo de este curso he afianzado mis conocimientos en **HTM**L, **CSS** y aprendí a utilizar  **SASS** y **Bootstrap**.
