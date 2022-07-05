@@ -9,7 +9,7 @@ Gracias a **OpenBootCamp** por ofrecer estos valiosos cursos. Este es el segundo
 
 Las sugerencias, aportes o críticas constructivas son bien recibidas.
 
-Si alguien lo esta haciendo tambien y tiene alguna duda en la que pueda ayudarle, pueden escribirme con confianza a [mi correo](mailto:hector@hrod.dev)
+Si alguien lo esta haciendo el curso tambien y tiene alguna duda en la que pueda ayudarle, pueden escribirme con confianza a [mi correo](mailto:hector@hrod.dev)
 
 Estas son algunas pantallas de como quedo el proyecto final:
 
