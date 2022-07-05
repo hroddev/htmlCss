@@ -9,7 +9,10 @@ Gracias a **OpenBootCamp** por ofrecer estos valiosos cursos. Este es el segundo
 
 Las sugerencias, aportes o críticas constructivas son bien recibidas.
 
-Si alguien lo esta haciendo el curso tambien y tiene alguna duda en la que pueda ayudarle, pueden escribirme con confianza a [mi correo](mailto:hector@hrod.dev)
+Si alguien también esta haciendo el curso y tiene alguna duda en la que pueda ayudarle pueden escribirme con confianza a [mi correo](mailto:hector@hrod.dev)
 
 Estas son algunas pantallas de como quedo el proyecto final:
 
+![imagen1](https://github.com/hroddev/htmlCss/blob/master/14-15-Proyecto/assets/screenshots/imagen1.png)
+![imagen2](https://github.com/hroddev/htmlCss/blob/master/14-15-Proyecto/assets/screenshots/imagen2.png)
+![imagen3](https://github.com/hroddev/htmlCss/blob/master/14-15-Proyecto/assets/screenshots/imagen3.png)
